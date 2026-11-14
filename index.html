@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Remmaxel Boutique | Mini Store</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <!--Top Navigation Bar -->
+  <header class="navbar">
+    <div class="logo">🛍️ Remmaxel Boutique</div>
+    <button id="cart-toggle-btn" class="cart-btn">
+      🛒 Cart (<span id="cart-count">0</span>)
+    </button>
+  </header>
+
+  <!--Main Storefront Layout -->
+  <main class="store-container">
+    
+    <!-- Product Catalog Grid -->
+        <!-- Product Catalog Grid -->
+    <section class="products-section">
+      <div class="catalog-header">
+        <h2>Featured Drops ✨</h2>
+        <!-- Category Filter Buttons -->
+        <div class="filter-tabs" id="filter-tabs">
+          <button class="filter-btn active" data-category="All">All Drops</button>
+          <button class="filter-btn" data-category="Streetwear">👟 Streetwear</button>
+          <button class="filter-btn" data-category="Tech">🎧 Tech</button>
+          <button class="filter-btn" data-category="Beauty">✨ Beauty</button>
+          <button class="filter-btn" data-category="Snacks">🍔 Snacks</button>
+        </div>
+      </div>
+
+      <div id="product-grid" class="product-grid">
+        <p>Loading products...</p>
+      </div>
+    </section>
+
+
+    <!--Slide-Out / Side Shopping Cart -->
+    <aside id="cart-panel" class="cart-panel">
+      <div class="cart-header">
+        <h3>Your Cart 🛒</h3>
+        <button id="close-cart-btn" class="close-btn">✕</button>
+      </div>
+
+      <div id="cart-items" class="cart-items">
+        <p class="empty-cart-msg">Your cart is empty. Add something cool!</p>
+      </div>
+
+      <div class="cart-footer">
+        <div class="summary-row">
+          <span>Subtotal:</span>
+          <span id="cart-subtotal">₦0.00</span>
+        </div>
+        <div class="summary-row">
+          <span>Delivery Fee:</span>
+          <span id="cart-delivery">₦0.00</span>
+        </div>
+        <div class="summary-row total-row">
+          <span>Total:</span>
+          <span id="cart-total">₦0.00</span>
+        </div>
+        <button id="checkout-btn" class="checkout-btn">Checkout Now</button>
+      </div>
+    </aside>
+
+  </main>
+
+  <script src="script.js"></script>
+</body>
+</html>
