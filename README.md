@@ -2,7 +2,7 @@
 
 A sleek, dark-luxury multi-department online storefront featuring live category filtering, an interactive shopping cart, dynamic quantity management, smart delivery fee calculations, and persistent cart storage.
 
- **Shop the Live Store Here:** `https://[your-username].github.io/mini-store/` *(Update this link once GitHub Pages is live!)*
+ **Shop the Live Store Here:** https://marvex-scoarts.github.io/mini-ecommerce-website/
 
 ---
 
